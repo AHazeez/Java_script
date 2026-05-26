@@ -9,6 +9,39 @@
 <body>
     <script>
     document.write("This is the display message from the demo js file")
+    //var variable
+    var a=10;
+    console.log(a)
+    // re-initilaztion
+    a=20
+    console.log(a)
+
+    //let variable
+    let username="john";
+    console.log(username)
+    // re-initilaztion
+    username="doe"
+    console.log(username)
+        
+    {
+        //const variable
+        const pi=3.14;
+        console.log(pi)
+        // re-initilaztion
+        //pi=3.1415; // This will throw an error because const variables cannot be reassigned   
+
+    }
+    // console.log(pi) // This will throw an error because pi is not defined outside the block scope
+
+    // 3. Const variable
+    const adar_Number= 154875157
+    console.log("The user's adar number is: ",adar_Number)
+    {
+        // re-initilaztion
+        //adar_Number= 123456789; // This will throw an error because const variables cannot be reassigned
+    }
+    console.log("the re initilaztion of adar number is: ",adar_Number) // This will print the original value of adar_Number
+
     </script>
 </body>
 </html>
